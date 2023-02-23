@@ -40,7 +40,8 @@
 ### Key Features <a name="key-features"></a>
 - Built using ES6 Modules
 - Dynamic Todolist class
-- Tasks are arranged based on priority
+- Tasks are arranged based on priority.
+- dist folder was created using htmlplugin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

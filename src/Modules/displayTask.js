@@ -11,7 +11,7 @@ const taskarrangment = (data) => {
   taskholder.className = 'topMenu';
   taskholder.innerHTML = ` <input type="checkbox" name="status" id="status" />
     <h2 class="task"> ${data.description}</h2>
-  <button type="submit" class="submitBtn editbt"><img  class ="edit" src=${edit}></button>`;
+  <button type="submit" class="submitBtn editbt"><img  class ="edit" alt ="edit" src=${edit}></button>`;
   container.append(taskholder);
 };
 const arrangement = () => {

@@ -10,16 +10,9 @@ module.exports = {
     clean: true,
     assetModuleFilename: 'src/assets/images/[name][ext]',
   },
-  // devtool: 'source-map',
+ 
   devServer: {
-    static: {
-      directory: path.resolve(__dirname, 'dist'),
-    },
-    port: 3000,
-    open: true,
-    hot: true,
-    compress: true,
-    historyApiFallback: true,
+    static: './dist'
   },
 
   module: {

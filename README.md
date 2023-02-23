@@ -31,7 +31,7 @@
 - Programming languages: 
     HTML, CSS3, Javascript
 - Tools: 
-    Git, GitHub, Linters, Webpack
+    Git, GitHub, Linters, Webpack,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

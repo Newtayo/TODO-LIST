@@ -42,7 +42,7 @@
 - Dynamic Todolist class
 - Tasks are arranged based on priority.
 - dist folder was created using htmlplugin
-- CSS loader are incorporated in webconfig file
+- CSS loader are incorporated
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

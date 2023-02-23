@@ -10,7 +10,7 @@ module.exports = {
     clean: true,
     assetModuleFilename: 'src/assets/images/[name][ext]',
   },
- 
+
   devServer: {
     static: {
       directory: path.resolve(__dirname, 'dist'),

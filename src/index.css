@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+  box-shadow: 0 3px 4px 2px grey;
+  margin: auto auto;
+  background-color: #f7f9f8;
+  align-items: center;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 7%;
+}
+
+.heading {
+  background-color: white;
+  width: 90%;
+  justify-self: flex-start;
+  font-weight: 100;
+  font-size: 3vh;
+  color: #090a0a;
+  margin-left: 3%;
+}
+
+#reload {
+  height: 2vh;
+}
+
+.topMenu {
+  width: 80%;
+  background-color: white;
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.submitBtn {
+  width: 10%;
+  background-color: white;
+  border: none;
+}
+
+#addTolist {
+  font-style: italic;
+  width: 90%;
+  border: none;
+  justify-self: flex-start;
+  font-weight: 100;
+  margin-left: 3%;
+}
+
+#addBtn {
+  height: 2vh;
+  color: aqua;
+}
+
+.edit {
+  height: 2vh;
+}
+
+.task {
+  background-color: white;
+  width: 90%;
+  justify-self: flex-start;
+  font-weight: 100;
+  font-size: 2.5vh;
+  color: #090a0a;
+  margin-left: 2%;
+}
+
+#status {
+  justify-self: flex-start;
+  margin-left: 3%;
+}
+
+.reset {
+  width: 80%;
+  height: 6vh;
+  color: #c0cec7;
+  background-color: #f9fdfb;
+  border: solid 1px #c9c9c9;
+}

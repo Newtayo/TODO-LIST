@@ -51,7 +51,7 @@
 
 > Link to deployed project.
 
-- [Live Demo Link](<a href="https://newtayo.github.io/Module-Awesome-Books//">Live Demo</a>)
+- [Live Demo Link](<a href="https://newtayo.github.io/TODO-LIST/">Live Demo</a>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,7 +71,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-``git clone `https://github.com/Newtayo/Module-Awesome-Books.git`
+``git clone `https://github.com/Newtayo/TODO-LIST.git`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +97,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Newtayo/Module-Awesome-Books/issues).
+Feel free to check the [issues page](https://github.com/Newtayo/TODO-LIST/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,6 +122,6 @@ Feel free to check the [issues page](https://github.com/Newtayo/Module-Awesome-B
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](<a href="https://github.com/Newtayo/Module-Awesome-Books/blob/main/LICENSE">License</a>) licensed.
+This project is [MIT](<a href="https://github.com/Newtayo/TODO-LIST/blob/main/license">License</a>) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

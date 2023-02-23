@@ -10,8 +10,9 @@ const render = () => {
   header.innerHTML = `<h1 class="heading"> Today's To Do</h1>
     <button type="submit" class="submitBtn"><img  id ="reload" alt="reload" src="${reload}" ></button>`;
 
-  const entry = document.createElement('ul');
+  const entry = document.createElement('form');
   entry.className = 'topMenu';
+  entry.id = 'submission';
   entry.innerHTML = ` <input type="text" name="add" placeholder="Add to your List..." maxlength="30" id="addTolist" />
   <button type="submit" class="submitBtn"> <img  id ="addBtn" alt="enter" src="${enter}" ></button>`;
 

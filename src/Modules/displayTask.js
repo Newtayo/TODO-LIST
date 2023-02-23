@@ -1,10 +1,7 @@
-import sortOutput from './sort.js';
-
 import edit from '../assets/Edit.svg';
+import { tasksorting } from './task.js';
 
 const container = document.querySelector('.container');
-
-const tasklibrary = sortOutput();
 
 const taskarrangment = (data) => {
   const taskholder = document.createElement('ul');
@@ -14,7 +11,8 @@ const taskarrangment = (data) => {
   <button type="submit" class="submitBtn editbt"><img  class ="edit" alt ="edit" src=${edit}></button>`;
   container.append(taskholder);
 };
-const arrangement = () => {
+const arrangement = (tasklibrary) => {
+  tasklibrary = tasksorting();
   tasklibrary.forEach((element) => {
     taskarrangment(element);
   });

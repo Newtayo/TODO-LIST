@@ -1,26 +1,23 @@
-import arrangement from './displayTask.js';
-
 import { Tasks, tasksorting, updatingstorage } from './task.js';
-
-import render from './render.js';
 
 const container = document.querySelector('.container');
 
 export default class Activity {
   addTask() {
     const submission = document.getElementById('submission');
+    const newArray = tasksorting();
     const List = new Tasks();
     List.description = submission.elements.addTolist.value;
-    List.index = 1;
+    List.index = `${newArray.length + 1}`;
     List.completed = true;
 
-    const newArray = tasksorting();
     newArray.push(List);
 
     updatingstorage(newArray);
     container.innerHTML = '';
-    render();
-    arrangement(newArray);
+
+    // arrangement(newArray);
+    // removeTask();
 
     return this;
   }

@@ -8,7 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
     clean: true,
-    assetModuleFilename: 'src/assets/images/[name][ext]',
+    assetModuleFilename: 'src/assets/[name][ext]',
   },
 
   devServer: {
@@ -42,6 +42,7 @@ module.exports = {
         test: /\.(png|jpg|jpeg|gif|svg)$/,
         type: 'asset/resource',
       },
+
     ],
   },
   plugins: [

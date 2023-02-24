@@ -4,12 +4,21 @@ import { updatingstorage } from './task.js';
 import bookremoval from './removeTask.js';
 import sortOutput from './sort.js';
 
+import taskUpdate from './checkbox.js';
+import clearButton from './clearCompleted.js';
+
 const container = document.querySelector('.container');
 
 const taskarrangment = (data) => {
+  let check;
+  if (data.completed === true) {
+    check = 'checked';
+  } else {
+    check = 'unchecked';
+  }
   const taskholder = document.createElement('ul');
   taskholder.className = 'topMenu';
-  taskholder.innerHTML = ` <input type="checkbox" name="status" id="status" />
+  taskholder.innerHTML = ` <input type="checkbox" name="status" id=s${data.index} class ="taskstatus status" ${check} />
   <input class ="task" type="task" name="status" id="status" value="${data.description}" readonly />
   
   <button type="submit" class="submitBtn editbt" id ="${data.index}"><img  class ="edit" alt ="edit" src=${edit}></button>`;
@@ -48,11 +57,14 @@ const arrangement = (tasklibrary) => {
       });
     }
   }));
+  taskUpdate();
+
   const but = document.createElement('button');
   but.innerText = 'Clear all Completed';
   but.className = 'reset';
   but.setAttribute('type', 'submit');
   container.append(but);
+  clearButton();
 };
 
 export default arrangement;

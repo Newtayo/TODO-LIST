@@ -17,7 +17,7 @@ const render = () => {
   const entry = document.createElement('form');
   entry.className = 'topMenu';
   entry.id = 'submission';
-  entry.innerHTML = ` <input type="text" name="add" placeholder="Add to your List..." maxlength="30" id="addTolist" />
+  entry.innerHTML = ` <input type="text" name="add" placeholder="Add to your List..." maxlength="30" id="addTolist" required />
   <button type="submit" class="submitBtn" id ="hope"> <img  id ="addBtn" alt="enter" src="${enter}" ></button>`;
 
   container.append(header);

@@ -20,10 +20,4 @@ const tasksorting = () => {
   return tasklist;
 };
 
-// const bookremoval = (id) => {
-//   const filtered = bookcollection.filter((elem) => elem.id !== id);
-//   bookcollection = filtered;
-//   updatingstorage();
-//   return this;
-// };
 export { Tasks, tasksorting, updatingstorage };

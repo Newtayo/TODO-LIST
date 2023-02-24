@@ -9,8 +9,8 @@ export default class Activity {
     const newArray = sortOutput();
     const List = new Tasks();
     List.description = submission.elements.addTolist.value;
-    List.index = `${newArray.length + 1}`;
-    List.completed = true;
+    List.index = `${newArray.length}`;
+    List.completed = false;
 
     newArray.push(List);
 

@@ -1,11 +1,12 @@
-import { Tasks, tasksorting, updatingstorage } from './task.js';
+import { Tasks, updatingstorage } from './task.js';
+import sortOutput from './sort.js';
 
 const container = document.querySelector('.container');
 
 export default class Activity {
   addTask() {
     const submission = document.getElementById('submission');
-    const newArray = tasksorting();
+    const newArray = sortOutput();
     const List = new Tasks();
     List.description = submission.elements.addTolist.value;
     List.index = `${newArray.length + 1}`;

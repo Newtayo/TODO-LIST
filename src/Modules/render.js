@@ -2,8 +2,9 @@ import reload from '../assets/Refresh_icon.png';
 import '../index.css';
 import enter from '../assets/Enter.svg';
 import Activity from './addTask.js';
-import { tasksorting } from './task.js';
+
 import arrangement from './displayTask.js';
+import sortOutput from './sort.js';
 
 const container = document.querySelector('.container');
 
@@ -29,7 +30,7 @@ const render = () => {
     newAction.addTask();
     render();
   });
-  const modifyArray = tasksorting();
+  const modifyArray = sortOutput();
   arrangement(modifyArray);
 };
 

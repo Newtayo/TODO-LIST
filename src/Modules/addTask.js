@@ -17,9 +17,6 @@ export default class Activity {
     updatingstorage(newArray);
     container.innerHTML = '';
 
-    // arrangement(newArray);
-    // removeTask();
-
     return this;
   }
 }

@@ -52,7 +52,7 @@
 
 > Link to deployed project.
 
-- [Live Demo Link](<a href="https://newtayo.github.io/TODO-LIST/">Live Demo</a>)
+- [Live Demo Link](<a href="https://newtayo.github.io/TODO-LIST/dist/">Live Demo</a>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

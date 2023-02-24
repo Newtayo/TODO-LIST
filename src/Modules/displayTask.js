@@ -10,9 +10,15 @@ import clearButton from './clearCompleted.js';
 const container = document.querySelector('.container');
 
 const taskarrangment = (data) => {
+  let check;
+  if (data.completed === true) {
+    check = 'checked';
+  } else {
+    check = 'unchecked';
+  }
   const taskholder = document.createElement('ul');
   taskholder.className = 'topMenu';
-  taskholder.innerHTML = ` <input type="checkbox" name="status" id=s${data.index} class ="taskstatus status"  />
+  taskholder.innerHTML = ` <input type="checkbox" name="status" id=s${data.index} class ="taskstatus status" ${check} />
   <input class ="task" type="task" name="status" id="status" value="${data.description}" readonly />
   
   <button type="submit" class="submitBtn editbt" id ="${data.index}"><img  class ="edit" alt ="edit" src=${edit}></button>`;

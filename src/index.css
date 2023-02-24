@@ -34,11 +34,15 @@ body {
   width: 80%;
   background-color: white;
   display: flex;
-  height: 5vh;
+  height: 7vh;
   align-items: center;
   padding: 0;
   margin-top: 0;
   margin-bottom: 2px;
+}
+
+.topMenu:hover {
+  background-color: bisque;
 }
 
 .submitBtn {
@@ -84,9 +88,13 @@ body {
 .reset {
   width: 80%;
   height: 6vh;
-  color: #c0cec7;
+  color: #181a19;
   background-color: #f9fdfb;
   border: solid 1px #c9c9c9;
+}
+
+.reset:hover {
+  border: 2px solid rgb(253, 162, 162);
 }
 
 .hide {

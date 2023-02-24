@@ -76,7 +76,7 @@ body {
   border: none;
 }
 
-#status {
+.status {
   justify-self: flex-start;
   margin-left: 3%;
 }

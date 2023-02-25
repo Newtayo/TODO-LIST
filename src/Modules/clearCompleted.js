@@ -7,7 +7,7 @@ const clearButton = () => {
     const taskstatus = document.querySelectorAll('.taskstatus');
     taskstatus.forEach((task) => {
       if (task.checked) {
-        task.parentNode.className = 'hide';
+        task.parentNode.remove();
       }
     });
 

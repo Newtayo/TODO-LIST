@@ -53,7 +53,8 @@ const arrangement = (tasklibrary) => {
       deletebtn.addEventListener('click', () => {
         const reArray = sortOutput();
         bookremoval(e.target.id, reArray);
-        document.getElementById(`${e.target.id}`).parentNode.className = 'hide';
+        // document.getElementById(`${e.target.id}`).parentNode.className = 'hide';
+        document.getElementById(`${e.target.id}`).parentNode.remove();
       });
     }
   }));

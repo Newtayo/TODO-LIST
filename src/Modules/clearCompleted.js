@@ -13,6 +13,12 @@ const clearButton = () => {
 
     const afterClear = sortOutput();
     const filtered = afterClear.filter((elem) => elem.completed !== true);
+    for (let i = 0; i < filtered.length ; i++)
+    {
+  
+      filtered[i].index = i + "";
+    }
+    
 
     updatingstorage(filtered);
   });

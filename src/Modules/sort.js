@@ -8,7 +8,6 @@ const sortOutput = (newTasklist) => {
   const holder = [];
 
   newTasklist.forEach((task) => {
-   
     holder.push(task);
   });
   updatingstorage(holder);
